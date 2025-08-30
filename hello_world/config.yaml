@@ -1,0 +1,12 @@
+name: Hello World
+version: "1.0.0"
+slug: hello_world
+description: "Prints a message and stays running."
+arch:
+  - aarch64   # Raspberry Pi 5 = 64-bit ARM
+init: false
+startup: application
+boot: auto
+ports: {}
+options: {}
+schema: {}
